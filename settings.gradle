@@ -1,2 +1,3 @@
+include ':viewbing'
 include ':app'
 rootProject.name = "AopDemo"

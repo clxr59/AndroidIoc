@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="03be43ed-c1ca-452d-898a-a129df3ddf29" name="Default Changelist" comment="" />
+    <list default="true" id="03be43ed-c1ca-452d-898a-a129df3ddf29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/viewbing/viewbing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/androidTest/java/com/hankage/viewbing/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/EventInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/annotation/BaseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/annotation/BindView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/annotation/ContentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/annotation/OnClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/annotation/OnLongClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewbing/src/test/java/com/hankage/viewbing/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +47,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_21" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="234edae4" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -27,6 +64,14 @@
     <fileColor scope="All" color="c7edcc" />
     <fileColor scope="Project Files" color="c7edcc" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,12 +84,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="vivo-vivo_x9-234edae4" />
+    <property name="DEBUGGABLE_PROCESS" value="com.hankage.aopdemo" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hankage.viewbing.annotation" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -84,7 +139,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -163,6 +218,63 @@
       <updated>1604718218266</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1604722824384">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604722824384" />
+    <state x="576" y="222" key="AndroidProcessChooserDialog" timestamp="1604723420771">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="576" y="222" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1604723420771" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1604724841795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604724841795" />
+    <state width="1398" height="769" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604723936224" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1604724841795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604724841795" />
+    <state width="1398" height="769" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604723936220" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1604724841794">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604724841794" />
+    <state width="1398" height="769" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604723936219" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1604724841795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604724841795" />
+    <state width="1398" height="769" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604723936220" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1604723588460">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604723588460" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1604723588459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1604723588459" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1604723588458">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1604723588458" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1604723588459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1604723588459" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/Inject.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
