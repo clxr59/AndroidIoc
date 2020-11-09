@@ -1,40 +1,32 @@
 package com.hankage.aopdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
-import com.hankage.viewbing.annotation.BindView;
-import com.hankage.viewbing.annotation.ContentView;
-import com.hankage.viewbing.annotation.OnClick;
-import com.hankage.viewbing.annotation.OnLongClick;
+import androidx.annotation.Nullable;
 
-@ContentView(R.layout.activity_main)
-public class MainActivity extends BaseActivity {
-
-    @BindView(R.id.btn1)
-    Button btn1;
-
-    @BindView(R.id.btn2)
-    Button btn2;
+/**
+ * Author: cheers
+ * Time ： 2020/11/9
+ * Description ：
+ */
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        btn1.setText("按钮 1");
-        btn2.setText("Button 2");
-
+        setContentView(R.layout.activity_main);
+        findViewById(R.id.btn1).setOnClickListener(this);
     }
 
-    @OnClick({R.id.btn1, R.id.btn2})
-    public void onClick(View view){
-        Toast.makeText(this, "点击了 " + view.getId(), Toast.LENGTH_LONG).show();
-    }
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btn1:
+                startActivity(new Intent(MainActivity.this, ButterknifeActivity.class));
+                break;
 
-    @OnLongClick({R.id.btn2})
-    public boolean onLongClick(View view){
-        Toast.makeText(this, "长按了 " + view.getId(), Toast.LENGTH_LONG).show();
-        return true;
+        }
     }
 }

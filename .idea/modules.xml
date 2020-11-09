@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AopDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/AopDemo.iml" group="AopDemo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="AopDemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife/butterknife.iml" group="AopDemo/butterknife" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife/butterknife-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife/butterknife-annotation.iml" group="AopDemo/butterknife-annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife-compiler/butterknife-compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife-compiler/butterknife-compiler.iml" group="AopDemo/butterknife-compiler" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewbing/viewbing.iml" filepath="$PROJECT_DIR$/.idea/modules/viewbing/viewbing.iml" group="AopDemo/viewbing" />
     </modules>
   </component>

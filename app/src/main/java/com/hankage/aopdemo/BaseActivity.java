@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.hankage.viewbing.Inject;
+//import com.hankage.viewbing.Inject;
 
 /**
  * Author: cheers
@@ -16,6 +16,6 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Inject.inject(this);
+//        Inject.inject(this);
     }
 }

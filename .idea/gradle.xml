@@ -12,6 +12,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/butterknife-annotation" />
+            <option value="$PROJECT_DIR$/butterknife-compiler" />
             <option value="$PROJECT_DIR$/viewbing" />
           </set>
         </option>

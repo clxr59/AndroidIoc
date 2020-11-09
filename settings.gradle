@@ -1,3 +1,6 @@
+include ':butterknife'
+include ':butterknife-compiler'
+include ':butterknife-annotation'
 include ':viewbing'
 include ':app'
 rootProject.name = "AopDemo"
