@@ -14,7 +14,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.0.0/518929596ee3249127502a8573b2e008e2d51ed3/checker-qual-2.0.0.jar" />
         </processorPath>
-        <module name="butterknife-compiler" />
+        <module name="hrouter_compiler" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +22,8 @@
       <module name="butterknife-annotation" target="1.7" />
       <module name="butterknife-compiler" target="1.7" />
       <module name="compiler" target="1.7" />
+      <module name="hrouter_annotation" target="1.7" />
+      <module name="hrouter_compiler" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

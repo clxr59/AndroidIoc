@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20dp"
+        android:text="HRouter"
         android:layout_margin="10dp"
         android:id="@+id/btn1"/>
 

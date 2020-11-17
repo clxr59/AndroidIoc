@@ -12,6 +12,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [MODULE_NAME: project.getName()]
+            }
+        }
     }
 
     buildTypes {
@@ -31,6 +37,13 @@ dependencies {
     implementation project(':butterknife-annotation')
     annotationProcessor project(':butterknife-compiler')
 
+
+    implementation project(':hrouter')
+    implementation project(':hrouter_annotation')
+    annotationProcessor project(':hrouter_compiler')
+
+    implementation project(':login')
+    implementation project(':order')
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

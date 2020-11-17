@@ -6,10 +6,54 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03be43ed-c1ca-452d-898a-a129df3ddf29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hrouter/hrouter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hrouter_annotation/hrouter_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/hrouter_compiler/hrouter_compiler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/login/login.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/order/order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/androidTest/java/com/hankage/hrouter/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/HRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/_HRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/bean/Postcard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/temlate/IRouteGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/temlate/IRouteRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/util/HRouterConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter/src/test/java/com/hankage/hrouter/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_annotation/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_annotation/src/main/java/com/hankage/hrouter_annotation/HRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_annotation/src/main/java/com/hankage/hrouter_annotation/enums/RouteType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_annotation/src/main/java/com/hankage/hrouter_annotation/model/RouteBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_annotation/src/main/java/com/hankage/hrouter_annotation/model/RouteMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_compiler/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_compiler/src/main/java/com/hankage/hrouter_compiler/GroupInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_compiler/src/main/java/com/hankage/hrouter_compiler/HRouterProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_compiler/src/main/java/com/hankage/hrouter_compiler/ProcessorConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hrouter_compiler/src/main/java/com/hankage/hrouter_compiler/RouterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/androidTest/java/com/hankage/login/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/java/com/hankage/login/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/test/java/com/hankage/login/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/androidTest/java/com/hankage/order/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/hankage/order/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/annotation-processors.bin" afterDir="false" />
@@ -18,11 +62,57 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/ButterknifeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/ButterknifeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hankage/aopdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/butterknife-compiler/src/main/java/com/hankage/butterknife_compiler/ButterknifeProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/butterknife-compiler/src/main/java/com/hankage/butterknife_compiler/ButterknifeProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +143,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -81,13 +172,20 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-554378892">
       <recent name="com.hankage.aopdemo" />
     </key>
+    <key name="android.template.-715156858">
+      <recent name="com.hankage.login" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hankage.hrouter_annotation.model" />
       <recent name="com.hankage.butterknife_annotation" />
       <recent name="com.hankage.butterknife_compiler" />
       <recent name="com.hankage.viewbing.annotation" />
@@ -212,84 +310,106 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1604901681986">
+    <state x="245" y="189" key="#PSD" timestamp="1605506336675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604901681986" />
-    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604722824384" />
+    <state x="245" y="189" key="#PSD/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605506336675" />
+    <state x="2388" y="264" key="#com.intellij.ide.util.MemberChooser" timestamp="1605601981130">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605495568421" />
+    <state x="2388" y="264" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605601981130" />
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605511500721" />
+    <state x="2345" y="270" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605596255603">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2345" y="270" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605596255603" />
     <state x="576" y="222" key="AndroidProcessChooserDialog" timestamp="1604901903260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="576" y="222" key="AndroidProcessChooserDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604901903260" />
     <state x="576" y="222" key="AndroidProcessChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1604723420771" />
-    <state width="2518" height="603" key="GridCell.Tab.0.bottom" timestamp="1605083285338">
+    <state width="2518" height="603" key="GridCell.Tab.0.bottom" timestamp="1605604861232">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="333" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604907982660" />
-    <state width="2518" height="603" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605083285338" />
+    <state width="2518" height="603" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605604861232" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604848869033" />
     <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.23.1440.754@0.23.1440.754" timestamp="1604921445362" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.760/1440.0.2560.1440@0.23.1440.760" timestamp="1604906959703" />
     <state width="1398" height="769" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604723936224" />
-    <state width="2518" height="603" key="GridCell.Tab.0.center" timestamp="1605083285336">
+    <state width="2518" height="603" key="GridCell.Tab.0.center" timestamp="1605604861231">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="333" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604907982659" />
-    <state width="2518" height="603" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605083285336" />
+    <state width="2518" height="603" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605604861231" />
     <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604848869033" />
     <state width="1398" height="294" key="GridCell.Tab.0.center/0.23.1440.754@0.23.1440.754" timestamp="1604921445361" />
     <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.760/1440.0.2560.1440@0.23.1440.760" timestamp="1604906959700" />
     <state width="1398" height="769" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604723936220" />
-    <state width="2518" height="603" key="GridCell.Tab.0.left" timestamp="1605083285335">
+    <state width="2518" height="603" key="GridCell.Tab.0.left" timestamp="1605604861230">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="333" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604907982658" />
-    <state width="2518" height="603" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605083285335" />
+    <state width="2518" height="603" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605604861230" />
     <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604848869032" />
     <state width="1398" height="294" key="GridCell.Tab.0.left/0.23.1440.754@0.23.1440.754" timestamp="1604921445361" />
     <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.760/1440.0.2560.1440@0.23.1440.760" timestamp="1604906959699" />
     <state width="1398" height="769" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604723936219" />
-    <state width="2518" height="603" key="GridCell.Tab.0.right" timestamp="1605083285337">
+    <state width="2518" height="603" key="GridCell.Tab.0.right" timestamp="1605604861232">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="333" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604907982660" />
-    <state width="2518" height="603" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605083285337" />
+    <state width="2518" height="603" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605604861232" />
     <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604848869033" />
     <state width="1398" height="294" key="GridCell.Tab.0.right/0.23.1440.754@0.23.1440.754" timestamp="1604921445362" />
     <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.760/1440.0.2560.1440@0.23.1440.760" timestamp="1604906959701" />
     <state width="1398" height="769" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604723936220" />
-    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1604921445365">
-      <screen x="0" y="23" width="1440" height="754" />
+    <state width="2518" height="509" key="GridCell.Tab.1.bottom" timestamp="1605603742949">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604902008639" />
+    <state width="2518" height="509" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605603742949" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604723588460" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.23.1440.754@0.23.1440.754" timestamp="1604921445365" />
-    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1604921445363">
-      <screen x="0" y="23" width="1440" height="754" />
+    <state width="2518" height="509" key="GridCell.Tab.1.center" timestamp="1605603742948">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604902008637" />
+    <state width="2518" height="509" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605603742948" />
     <state width="1398" height="294" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1604723588459" />
     <state width="1398" height="294" key="GridCell.Tab.1.center/0.23.1440.754@0.23.1440.754" timestamp="1604921445363" />
-    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1604921445363">
-      <screen x="0" y="23" width="1440" height="754" />
+    <state width="2518" height="509" key="GridCell.Tab.1.left" timestamp="1605603742948">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604902008636" />
+    <state width="2518" height="509" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605603742948" />
     <state width="1398" height="294" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1604723588458" />
     <state width="1398" height="294" key="GridCell.Tab.1.left/0.23.1440.754@0.23.1440.754" timestamp="1604921445363" />
-    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1604921445364">
-      <screen x="0" y="23" width="1440" height="754" />
+    <state width="2518" height="509" key="GridCell.Tab.1.right" timestamp="1605603742949">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604902008638" />
+    <state width="2518" height="509" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605603742949" />
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1604723588459" />
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.23.1440.754@0.23.1440.754" timestamp="1604921445364" />
     <state x="458" y="209" key="extract.method.dialog" timestamp="1604906002666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="209" key="extract.method.dialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1604906002666" />
-    <state width="326" height="110" key="javadoc.popup.new" timestamp="1605082642987">
+    <state width="326" height="110" key="javadoc.popup.new" timestamp="1605605036056">
       <screen x="1440" y="0" width="2560" height="1440" />
     </state>
-    <state width="326" height="110" key="javadoc.popup.new/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605082642987" />
+    <state width="300" height="69" key="javadoc.popup.new/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1605509973124" />
+    <state width="326" height="110" key="javadoc.popup.new/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605605036056" />
+    <state width="300" height="69" key="javadoc.popup.new/0.0.1440.900@0.0.1440.900" timestamp="1605517100166" />
+    <state width="534" height="111" key="javadoc.popup.new/0.25.1440.875/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605602086810" />
+    <state x="2124" y="330" width="1192" height="1292" key="search.everywhere.popup" timestamp="1605604563021">
+      <screen x="1440" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2124" y="330" width="1192" height="1292" key="search.everywhere.popup/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1605604563021" />
+    <state x="385" y="206" width="670" height="807" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605510779564" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.754@0.23.1440.754" timestamp="1605510776462" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -298,6 +418,11 @@
           <url>file://$PROJECT_DIR$/viewbing/src/main/java/com/hankage/viewbing/Inject.java</url>
           <line>78</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/hrouter/src/main/java/com/hankage/hrouter/_HRouter.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

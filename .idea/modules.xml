@@ -7,6 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife/butterknife.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife/butterknife.iml" group="AopDemo/butterknife" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife/butterknife-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife/butterknife-annotation.iml" group="AopDemo/butterknife-annotation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/butterknife-compiler/butterknife-compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/butterknife-compiler/butterknife-compiler.iml" group="AopDemo/butterknife-compiler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hrouter/hrouter.iml" filepath="$PROJECT_DIR$/.idea/modules/hrouter/hrouter.iml" group="AopDemo/hrouter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hrouter_annotation/hrouter_annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/hrouter_annotation/hrouter_annotation.iml" group="AopDemo/hrouter_annotation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hrouter_compiler/hrouter_compiler.iml" filepath="$PROJECT_DIR$/.idea/modules/hrouter_compiler/hrouter_compiler.iml" group="AopDemo/hrouter_compiler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login/login.iml" filepath="$PROJECT_DIR$/.idea/modules/login/login.iml" group="AopDemo/login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/order.iml" filepath="$PROJECT_DIR$/.idea/modules/order/order.iml" group="AopDemo/order" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewbing/viewbing.iml" filepath="$PROJECT_DIR$/.idea/modules/viewbing/viewbing.iml" group="AopDemo/viewbing" />
     </modules>
   </component>

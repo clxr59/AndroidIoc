@@ -59,7 +59,9 @@ public class ButterknifeProcessor extends AbstractProcessor {
         Map<String, List<VariableElement>> bindViewMap = getStringListMap(bindViewSet);
         Map<String, List<Element>> onClickMap = getStringMethodListMap(roundEnv.getElementsAnnotatedWith(OnClick.class));
 
-        createSourceFileFromFiler(onClickMap, bindViewMap);
+        if (!bindViewMap.isEmpty() || !onClickMap.isEmpty()){
+            createSourceFileFromFiler(onClickMap, bindViewMap);
+        }
 
 
         return false;
@@ -104,6 +106,28 @@ public class ButterknifeProcessor extends AbstractProcessor {
         }
         return bindViewMap;
     }
+
+
+    private void createSourceFileFromJavapoet(Map<String, List<Element>> onClickMap, Map<String, List<VariableElement>> map){
+        mMessager.printMessage(Diagnostic.Kind.NOTE, "createSourceFileFromJavapoet");
+        //******************** 开始生成文件 ************************/
+
+        for (String className : map.keySet()) {
+            List<VariableElement> elements = map.get(className);
+            if (elements.isEmpty()){
+                continue;
+            }
+            TypeElement typeElement = (TypeElement) elements.get(0).getEnclosingElement();
+            String packageName = processingEnv.getElementUtils().getPackageOf(typeElement).getSimpleName().toString();
+//            TypeSpec classType = TypeSpec.classBuilder(className + "_ViewBinding")
+//                    .addModifiers(Modifier.PUBLIC, Modifier.FINAL)
+//                    .addSuperinterface(String.class)
+//                    .build();
+        }
+
+
+    }
+
 
     private void createSourceFileFromFiler(Map<String, List<Element>> onClickMap, Map<String, List<VariableElement>> map) {
         StringBuilder sb = new StringBuilder();
